@@ -1,0 +1,775 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+    background-color: #292929;
+}
+
+.NavBar {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.NavLogo {
+    position: absolute;
+    height: 60px;
+    left: 0;
+    top: 0;
+}
+
+.NavBarList {
+    position: absolute;
+    right: 10px;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.NavBar li {
+    float:left;
+}
+
+.NavBar li a {
+    color: #0067ee;
+    padding: 11px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    transition: color 0.2s;
+}
+
+.NavBar li a:hover {
+    color: white;
+}
+
+.Header {
+    background-image: url("../img/Header_Image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    left: 0;
+    top: 60px;
+}
+
+.HeaderText {
+    position: absolute;
+    left: 220px;
+    top: 50%;
+    transform: translate(0%, -50%);
+    width: 43%;
+}
+
+.HeaderSlogan {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.HeaderDescription {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: left;
+}
+
+.HeaderSubImage {
+    position: absolute;
+    right: 220px;
+    top: 50%;
+    transform: translate(0%, -50%);
+    width: 30%;
+}
+
+.InfoCards {
+    position: absolute;
+    top: 660px;
+    width: 100%;
+    left: 0;
+}
+
+.CpuCard {
+    background-image: url("../img/CPU_Background.jpg");
+    color:white;
+    width: 100%;
+    height: 210px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.CpuCardContent {
+    background-color: #050505;
+    height: 100%;
+    width: 900px;
+}
+
+.CpuCardContent h1 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.CpuCardContent p {
+    position: absolute;
+    left: 10px;
+    top: 70px;
+    width: 800px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.MemoryCard {
+    background-image: url("../img/Memory_Background.png");
+    color:white;
+    width: 100%;
+    height: 210px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.MemoryCardContent {
+    float: right;
+    background-color: #050505;
+    height: 100%;
+    width: 900px;
+}
+
+.MemoryCardContent h1 {
+    position: absolute;
+    right: 680px;
+    top: 220px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.MemoryCardContent p {
+    position: absolute;
+    right: 87px;
+    top: 280px;
+    width: 800px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.StorageCard {
+    background-image: url("../img/Storage_Background.jpg");
+    color:white;
+    width: 100%;
+    height: 210px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.StorageCardContent {
+    background-color: #050505;
+    height: 100%;
+    width: 900px;
+}
+
+.StorageCardContent h1 {
+    position: absolute;
+    left: 10px;
+    top: 440px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.StorageCardContent p {
+    position: absolute;
+    left: 10px;
+    top: 500px;
+    width: 800px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.MotherboardCard {
+    background-image: url("../img/Chipboard_Background.jpg");
+    color:white;
+    width: 100%;
+    height: 210px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.MotherboardCardContent {
+    float: right;
+    background-color: #050505;
+    height: 100%;
+    width: 900px;
+}
+
+.MotherboardCardContent h1 {
+    position: absolute;
+    right: 605px;
+    top: 660px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.MotherboardCardContent p {
+    position: absolute;
+    right: 87px;
+    top: 720px;
+    width: 800px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.PowerSupplyCard {
+    background-image: url("../img/Power_Supply_Background.jpg");
+    color:white;
+    width: 100%;
+    height: 210px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.PowerSupplyCardContent {
+    background-color: #050505;
+    height: 100%;
+    width: 900px;
+}
+
+.PowerSupplyCardContent h1 {
+    position: absolute;
+    left: 10px;
+    top: 880px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.PowerSupplyCardContent p {
+    position: absolute;
+    left: 10px;
+    top: 940px;
+    width: 800px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.ComputerItems {
+    background-color: #0a0a0a;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 1710px;
+    width: 100%;
+    height: 1900px;
+}
+
+.ComputerItems h1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.CPU {
+    background: black;
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 140px;
+    transform: translate(-50%, 0%);
+}
+
+.CPU p {
+    position: absolute;
+    left: 50%;
+    top: -5px;
+    transform: translate(-50%, 0%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+.CPUButton {
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #0067ee;
+    border-width: 5px;
+    position: absolute;
+    left: 50%;
+    top: 105px;
+    width: 150px;
+    height: 50px;
+    transform: translate(-50%, 0%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.CPUButton:hover {
+    background-color: #0067ee;
+}
+
+.Motherboard {
+    background: black;
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 360px;
+    transform: translate(-50%, 0%);
+}
+
+.Motherboard p {
+    position: absolute;
+    left: 50%;
+    top: -5px;
+    transform: translate(-50%, 0%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+.MotherboardButton {
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #0067ee;
+    border-width: 5px;
+    position: absolute;
+    left: 50%;
+    top: 105px;
+    width: 150px;
+    height: 50px;
+    transform: translate(-50%, 0%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.MotherboardButton:hover {
+    background-color: #0067ee;
+}
+
+.RAM {
+    background: black;
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 580px;
+    transform: translate(-50%, 0%);
+}
+
+.RAM p {
+    position: absolute;
+    left: 50%;
+    top: -5px;
+    transform: translate(-50%, 0%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+.RAMButton {
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #0067ee;
+    border-width: 5px;
+    position: absolute;
+    left: 50%;
+    top: 105px;
+    width: 150px;
+    height: 50px;
+    transform: translate(-50%, 0%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.RAMButton:hover {
+    background-color: #0067ee;
+}
+
+.Storage {
+    background: black;
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 800px;
+    transform: translate(-50%, 0%);
+}
+
+.Storage p {
+    position: absolute;
+    left: 50%;
+    top: -5px;
+    transform: translate(-50%, 0%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+.StorageButton {
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #0067ee;
+    border-width: 5px;
+    position: absolute;
+    left: 50%;
+    top: 105px;
+    width: 150px;
+    height: 50px;
+    transform: translate(-50%, 0%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.StorageButton:hover {
+    background-color: #0067ee;
+}
+
+.PowerSupply {
+    background: black;
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 1020px;
+    transform: translate(-50%, 0%);
+}
+
+.PowerSupply p {
+    position: absolute;
+    left: 50%;
+    top: -5px;
+    transform: translate(-50%, 0%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+.PowerSupplyButton {
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #0067ee;
+    border-width: 5px;
+    position: absolute;
+    left: 50%;
+    top: 105px;
+    width: 150px;
+    height: 50px;
+    transform: translate(-50%, 0%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.PowerSupplyButton:hover {
+    background-color: #0067ee;
+}
+
+.GPU {
+    background: black;
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 1240px;
+    transform: translate(-50%, 0%);
+}
+
+.GPU p {
+    position: absolute;
+    left: 50%;
+    top: -5px;
+    transform: translate(-50%, 0%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+.GPUButton {
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #0067ee;
+    border-width: 5px;
+    position: absolute;
+    left: 50%;
+    top: 105px;
+    width: 150px;
+    height: 50px;
+    transform: translate(-50%, 0%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.GPUButton:hover {
+    background-color: #0067ee;
+}
+
+.Case {
+    background: black;
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 1460px;
+    transform: translate(-50%, 0%);
+}
+
+.Case p {
+    position: absolute;
+    left: 50%;
+    top: -5px;
+    transform: translate(-50%, 0%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+.CaseButton {
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #0067ee;
+    border-width: 5px;
+    position: absolute;
+    left: 50%;
+    top: 105px;
+    width: 150px;
+    height: 50px;
+    transform: translate(-50%, 0%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.CaseButton:hover {
+    background-color: #0067ee;
+}
+
+.Cooler {
+    background: black;
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 1680px;
+    transform: translate(-50%, 0%);
+}
+
+.Cooler p {
+    position: absolute;
+    left: 50%;
+    top: -5px;
+    transform: translate(-50%, 0%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+.CoolerButton {
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #0067ee;
+    border-width: 5px;
+    position: absolute;
+    left: 50%;
+    top: 105px;
+    width: 150px;
+    height: 50px;
+    transform: translate(-50%, 0%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.CoolerButton:hover {
+    background-color: #0067ee;
+}
+
+.Footer {
+    background-color: black;
+    position: absolute;
+    top: 3610px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.FooterTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    transform: translate(-50%, -50%);
+}
+
+.FooterCredits {
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    width: 300px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    transform: translate(0%, -50%);
+}
+
+.FooterBarList {
+    position: absolute;
+    right: 10px;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.FooterBarList li {
+    float:left;
+}
+
+.FooterBarList li a {
+    color: #0067ee;
+    padding: 11px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    transition: color 0.2s;
+}
+
+.FooterBarList li a:hover {
+    color: white;
+}
+
+@media (min-width: 1798px) {
+    .HeaderSubImage {
+        width: 540px;
+    }
+}
+
+@media (max-width: 1680px) {
+   .HeaderSubImage {
+        width: 20%;
+   }
+   .HeaderSlogan {
+        font-size: 50px;
+   }
+   .HeaderDescription {
+        font-size: 20px;
+   }
+   .Header {
+        height: 500px;
+   }
+   .InfoCards {
+        top: 544px
+   }
+   .ComputerItems {
+        top: 1594px
+   }
+   .Footer {
+        top: 3494px;
+   }
+}
+
+@media (max-width: 1350px) {
+    .HeaderText {
+        left: 50%;
+        top: 50px;
+        transform: translate(-50%, 0%);
+        width: 600px;
+        text-align: center;
+    }
+    .HeaderSubImage {
+        left: 50%;
+        top: 230px;
+        transform: translate(-50%, 0%);
+        width: 250px;
+    }
+    .HeaderDescription {
+        text-align: center;
+    }
+}
+
+@media (max-width: 916px) {
+    .CpuCardContent {
+        width: 100%;
+    }
+    .MemoryCardContent {
+        width: 100%;
+    }
+    .StorageCardContent {
+        width: 100%;
+    }
+    .MotherboardCardContent {
+        width: 100%;
+    }
+    .PowerSupplyCardContent {
+        width: 100%;
+    }
+}
